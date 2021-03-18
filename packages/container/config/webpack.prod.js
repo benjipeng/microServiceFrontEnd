@@ -21,7 +21,7 @@ const prodConfig = {
       name: "container",
       remotes: {
         // ! key: matches when importing
-        marketing: `marketing@${domain}/marketing/remoteEntry.js`,
+        marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     }),
