@@ -12,7 +12,7 @@ const prodConfig = {
   output: {
     filename: "[name].[contenthash].js",
     // * for caching issues
-    putlicPath: '/container/latest/'
+    publicPath: '/container/latest/'
     // TODO file built during production use the template above
   },
   plugins: [
